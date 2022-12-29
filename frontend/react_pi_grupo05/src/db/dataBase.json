@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "img": "https://fotoalquiler.com/imagenes-filtros/alquiler-casas-lujo.jpg",
+    "category": "Casa",
+    "title": "Casa en venta",
+    "location": "Córdoba",
+    "description":
+    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s..."  },
+  {
+    "id": 2,
+    "img": "https://fotoalquiler.com/imagenes-filtros/alquiler-casas-lujo.jpg",
+    "category": "Hotel",
+    "title": "Hotel",
+    "location": "Peru",
+    "description":
+    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s..."  },
+  {
+    "id": 3,
+    "img": "https://fotoalquiler.com/imagenes-filtros/alquiler-casas-lujo.jpg",
+    "category": "Casa",
+    "title": "Casa en venta",
+    "location": "Córdoba",
+    "description":
+    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s..."  },
+  {
+    "id": 4,
+    "img": "https://fotoalquiler.com/imagenes-filtros/alquiler-casas-lujo.jpg",
+    "category": "Casa",
+    "title": "Casa en venta",
+    "location": "Córdoba",
+    "description":
+    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s..."  },
+  {
+    "id": 5,
+    "img": "https://fotoalquiler.com/imagenes-filtros/alquiler-casas-lujo.jpg",
+    "category": "Casa",
+    "title": "Casa en venta",
+    "location": "Córdoba",
+    "description":
+    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s..."  },
+  {
+    "id": 6,
+    "img": "https://fotoalquiler.com/imagenes-filtros/alquiler-casas-lujo.jpg",
+    "category": "Casa",
+    "title": "Casa en venta",
+    "location": "Córdoba",
+    "description":
+    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s..."  },
+  {
+    "id": 7,
+    "img": "https://fotoalquiler.com/imagenes-filtros/alquiler-casas-lujo.jpg",
+    "category": "Casa",
+    "title": "Casa en venta",
+    "location": "Córdoba",
+    "description":
+    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s..."  },
+  {
+    "id": 8,
+    "img": "https://fotoalquiler.com/imagenes-filtros/alquiler-casas-lujo.jpg",
+    "category": "Casa",
+    "title": "Casa en venta",
+    "location": "Córdoba",
+    "description":
+    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s..."  }
+]

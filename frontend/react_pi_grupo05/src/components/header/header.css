@@ -1,0 +1,207 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.containerHeader{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+.containerLogo{
+    display: flex;
+    align-items: flex-end;
+    margin: 15px 0px 13px 40px;
+}
+
+.textoLogo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #545776;
+    margin-left: 12px;
+    margin-bottom: 10px;   
+    text-decoration: none; 
+}
+
+.containerButton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+    margin-right: 40px;
+
+}
+
+.buttonUp{
+    height: 40px;
+    width: 206px;
+    padding: 11px 20px 10px 22px;
+    background-color:rgba(255, 255, 255, 1) ;
+    color: rgba(29, 190, 180, 1);
+    border: 1px solid rgba(29, 190, 180, 1);
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: center;
+}
+
+.buttonUp:hover{
+    background-color: rgba(29, 190, 180);
+    color: white;
+    cursor: pointer;
+}
+
+.iconHamburger{
+    margin: 20px;
+}
+
+.iconHamburger{
+    display: none
+}
+
+
+.containerDrawer{
+    display: none;
+}
+.containerDrawerNone{
+    display: none;
+}
+
+
+
+/* TABLET STYLE */
+
+@media screen and (max-width: 840px){
+    .textoLogo{
+        display: none;
+    }
+    .iconHamburger{
+        display: none
+    }
+    .containerDrawerNone{
+        display: none;
+    }
+    .iconDrawer{
+        display: none;
+    }
+}
+
+
+
+/* MOBILE STYLE */
+
+@media screen and (max-width: 480px){
+    .textoLogo{
+        display: none;
+    }
+    .containerButton{
+        display: none;
+    }
+    .iconHamburger{
+        display: block;
+        cursor: pointer;
+    }
+
+
+    .containerDrawer{
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        background-color: rgba(255, 255, 255, 1);
+        height: 100%;
+        top: 84px;
+        width: 280px;
+        right: 0;
+        transform: translateX(0);
+        transition: 0.5s ease;
+    }
+
+    .containerDrawerNone{
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        background-color: rgba(255, 255, 255, 1);
+        height: 100%;
+        top: 84px;
+        width: 280px;
+        right: -280px;
+        transition: 0.5s ease;
+    }
+
+    .txtDrawer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(29, 190, 180, 1);
+        color: rgba(255, 255, 255, 1);
+        font-size: 20px;
+        height: 50px;
+    }
+
+    .containerButtonDrawer{
+        display: flex;
+        flex-direction: column;
+        align-items: right;
+        justify-content: right;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 1);
+    }
+
+    .btnDrawer{
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        height: 50px;
+        width: 206px;
+        padding: 30px 0px;
+        background-color: rgba(255, 255, 255, 1);
+        color: rgba(56, 59, 88, 1);
+        font-weight: 700;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .barritaDrawer{
+        border: rgba(84, 87, 118, 1) 1px solid;
+        width: 100%;
+        cursor: none;
+    }
+
+
+    .iconDrawer{
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        padding-right: 15px;
+        padding-bottom: 26px;
+        color: rgba(84, 87, 118, 1);
+        bottom: 70px;
+        right: 0;
+    }
+
+    .iconDrawerNone{
+        display: none;
+    }
+
+    .iconDrawerRedes{
+        padding-left : 18px;
+    }
+
+}
+    

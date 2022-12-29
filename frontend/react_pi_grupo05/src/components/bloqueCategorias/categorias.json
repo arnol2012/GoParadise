@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1, 
+        "name": "Hoteles", 
+        "img": "img/hotel.jpg",
+        "cantidad": 10.415
+    },
+    {
+        "id": 2, 
+        "name": "Hostels", 
+        "img": "img/hostel.jpg",
+        "cantidad": 6.415
+    },
+    {
+        "id": 3, 
+        "name": "Departamentos", 
+        "img": "img/depa.jpg",
+        "cantidad": 7.415
+    },
+    {
+        "id": 4, 
+        "name": "Bed and breakfast", 
+        "img": "img/brackfast.jpg",
+        "cantidad": 7.105 
+    }
+]
+  

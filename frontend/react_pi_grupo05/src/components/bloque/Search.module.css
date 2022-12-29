@@ -1,0 +1,86 @@
+
+.form {
+    margin: 1rem;
+    
+    
+}
+
+.input {
+    display: flex;
+    flex-direction: row;
+    justify-content:  center;
+    position: relative; 
+}
+
+.select {
+    flex-basis: 490px;
+    position: relative;  
+    justify-content:  center;
+    margin-right: 1rem; 
+    
+}
+
+
+.date {
+    margin-right: 1rem;
+    flex-basis: 450px;
+    background-color: white;
+    border-radius: 5px;
+    padding-right: 1rem;
+}
+
+.contenedor {
+    inline-size: 0%;
+}
+
+.button {
+    flex-basis: 0px;
+    background-color: #1DBEB4; /* Green */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor:pointer;
+}
+
+
+
+@media (max-width: 500px) {
+
+    .form {
+        margin: 0.3rem;
+        width: 97%;
+    }
+
+    .input {
+        flex-direction: column;
+    }
+
+
+    .button {
+        flex-basis: 100%;
+        margin-right: 0.5rem;
+        margin-top: 0.5rem;
+        padding: 10px 32px;
+        margin-bottom: 0.5rem;
+    }
+
+    
+        .select {
+        flex-basis: 100%;
+        margin-right: 0.5rem;
+        height: 40px;
+    }
+
+    .date {
+        flex-basis: 100%;
+        margin-top: 0.5rem;
+        margin-right: 0.5rem;
+        height: 40px;
+    }
+
+}
+
